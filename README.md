@@ -20,3 +20,19 @@ Software que detecta intentos de intrusión externos y accesos internos no autor
 
 https://github.com/users/gokuheine/projects/5
 
+## Indicadores de control
+
+| Indicador | Estándar | Datos de origen |
+| --- | --- | --- |
+| Tasa de detección | ≥ 95 % de ataques simulados detectados | ALERTA y pruebas de penetración |
+| Tasa de falsos positivos | ≤ 2 % de las alertas | ALERTA (campo falso_positivo) |
+| Tiempo de alerta (percentil 95) | < 5 segundos | ALERTA (campo tiempo_respuesta_seg) |
+| Capacidad de procesamiento | ≥ 10.000 eventos por segundo, sin pérdidas | EVENTO_SEGURIDAD |
+| Cobertura | 100 % de los activos monitoreados | ACTIVO_PROTEGIDO (campo monitoreado) |
+| Cumplimiento del plazo | 0 semanas de atraso en el camino crítico | Gantt y tablero |
+| Integración controlada | 100 % de los PR con comentario de revisión | Historial de GitHub |
+
+## Declaración de Uso de IA
+
+Se utilizó un asistente de IA generativa (Claude, de Anthropic) para proponer la estructura del trabajo, un borrador del diagrama BPMN, las Historias de Usuario y los indicadores, y para guiar la configuración de GitHub. La veracidad y la coherencia del contenido son responsabilidad de la autora. El detalle de los prompts utilizados y de las correcciones humanas está en la sección 5 del PDF de la Entrega 4.
+
